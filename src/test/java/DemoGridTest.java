@@ -123,7 +123,7 @@ public class DemoGridTest {
     public void testCasesFailed() {
         driver.get("http://blazedemo.com/purchase.php");
         driver.findElementById("inputName").clear();
-        driver.findElementById("inputName").sendKeys("TestName");
+        driver.findElementById("inputName").sendKeys("testName");
         String text = driver.findElementById("inputName").getAttribute("value");
 
         // failed assertion

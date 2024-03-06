@@ -127,7 +127,7 @@ public class DemoGridTest {
         String text = driver.findElementById("inputName").getAttribute("value");
 
         // failed assertion
-        assertEquals("testName", text);
+        assertEquals("TestName", text);
     }
 
 
